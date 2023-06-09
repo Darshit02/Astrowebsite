@@ -31,7 +31,6 @@ const Nav = () => {
         <a href="/">Hua.</a>
       </h1>
       {matches &&
-      
       <div className="gap-12 flex">
         <a href="/">Home</a>
         <a href="/services">Services</a>

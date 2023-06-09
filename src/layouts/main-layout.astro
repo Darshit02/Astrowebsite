@@ -1,0 +1,16 @@
+---
+import Nav from "../pages/components/Nav";
+const {title} = Astro.props
+---
+
+<html>
+    <head>
+        <title>{title}</title>
+    </head>
+    <body>
+        <main>
+            <Nav client:visible/>
+            <slot/>
+        </main>
+    </body>
+</html>

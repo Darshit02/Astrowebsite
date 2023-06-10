@@ -47,7 +47,7 @@ const Nav = () => {
 <motion.div
     animate = {{opacity :1, x:0}}
     initial={{opacity:0,x:25}}
-    className="fixed bg-white  flex bottom-0 left-0 w-full h-screen items-center justify-center">
+    className="fixed bg-white  flex bottom-0 left-0 w-full h-screen items-center justify-center z-40">
     <div className="flex flex-col gap-24 text-lg">
         <a href="/">Home</a>
         <a href="/services">Services</a>
